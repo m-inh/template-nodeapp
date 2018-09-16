@@ -1,0 +1,12 @@
+{
+  "service": {
+    "name": "Authorization service",
+    "port": 3001,
+    "route": "/auth",
+    "secret": "4123@dfsf_DFG"
+  },
+  "mongodb": {
+    "uri": "mongodb://127.0.0.1:27017/authorization-chatty",
+    "debug": true
+  }
+}
